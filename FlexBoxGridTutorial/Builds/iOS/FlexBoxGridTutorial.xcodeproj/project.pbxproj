@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A9AAABD2DCAD631AAEEB78 /* LaunchScreen.storyboard */ = {isa = PBXBuildFile; fileRef = 79D10A8B003BB12E6A6D2A46; };
+		1B0F84D71FDFB5AF91F5300E /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = EBD8D34C45957251B95AC5E0; };
+		28692A0B70EDD675BF0AF2C6 /* CoreImage.framework */ = {isa = PBXBuildFile; fileRef = 658D41426A6FBB4743C7F7A3; };
+		3520AD4518AAE9D3C41DF8FE /* Images.xcassets */ = {isa = PBXBuildFile; fileRef = 08A3EC0DBD6AA4500518AEA5; };
+		4B2866CB67D5A1E0442A4928 /* CoreText.framework */ = {isa = PBXBuildFile; fileRef = 5EFA37BB99C30A352FAA9F58; };
+		4C9FB07E288BF1E315862E3B /* UIKit.framework */ = {isa = PBXBuildFile; fileRef = A0899B13B6CF2E07CE104393; };
+		64C6BAC0E9F3EB001DB0AF94 /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 052D21157A89D44913B64D11; };
+		6B967563329EDE619E1FFF45 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = C77EAA4B41ADBA6B235C8A92; };
+		6CE5ED73556A297A904E043A /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = A34809D7A31CC9DB81033AF5; };
+		77F908CF0864247638C48C25 /* CoreGraphics.framework */ = {isa = PBXBuildFile; fileRef = 9D1EE67CEE1A86CA1DC28428; };
+		817080D6FEF6484C7A36C117 /* CoreServices.framework */ = {isa = PBXBuildFile; fileRef = AC1C34A103F5CABD80ACF50E; };
+		82664F7DAFDE1164E413F1E5 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 87EF4FC2AF4C47D48988DBB5; };
+		8CF087E8F842ED715910DD3A /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 99D1B8A363B52D3E4D5EA46B; };
+		97A89D16DAD2391BB766B31B /* App */ = {isa = PBXBuildFile; fileRef = DBF6A74C6EDD54DA1C555AED; };
+		AFFDD23FE25DF0FCABAD2ACD /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 7ABDB5612ED3C9BF39F28287; };
+		DE2BE8F9903154FC30C3CA05 /* Main.cpp */ = {isa = PBXBuildFile; fileRef = C8F2FAF9885744AC7F2E39BC; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042A5DBD2F7DE8B23DEAA146 /* FlexBoxGridTutorial_01.h */ /* FlexBoxGridTutorial_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlexBoxGridTutorial_01.h; path = ../../Source/FlexBoxGridTutorial_01.h; sourceTree = SOURCE_ROOT; };
+		052D21157A89D44913B64D11 /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		08A3EC0DBD6AA4500518AEA5 /* Images.xcassets */ /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FlexBoxGridTutorial/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		09B66DB4057B4484E2A21F4B /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = "~/JUCE/modules/juce_events"; sourceTree = "<absolute>"; };
+		404AAF7B6F929001C81B975A /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = "~/JUCE/modules/juce_gui_basics"; sourceTree = "<absolute>"; };
+		534EC7DF66E48D36B9AB0D34 /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = "~/JUCE/modules/juce_data_structures"; sourceTree = "<absolute>"; };
+		5EFA37BB99C30A352FAA9F58 /* CoreText.framework */ /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		658D41426A6FBB4743C7F7A3 /* CoreImage.framework */ /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		6C14042FE09F225393171B14 /* Info-App.plist */ /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-App.plist"; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
+		79D10A8B003BB12E6A6D2A46 /* LaunchScreen.storyboard */ /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		7ABDB5612ED3C9BF39F28287 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87EF4FC2AF4C47D48988DBB5 /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		99D1B8A363B52D3E4D5EA46B /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+		9D1EE67CEE1A86CA1DC28428 /* CoreGraphics.framework */ /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0899B13B6CF2E07CE104393 /* UIKit.framework */ /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A34809D7A31CC9DB81033AF5 /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		AC1C34A103F5CABD80ACF50E /* CoreServices.framework */ /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		C77EAA4B41ADBA6B235C8A92 /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		C8F2FAF9885744AC7F2E39BC /* Main.cpp */ /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		CC0970C28D85E4C0A76CF85C /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = "~/JUCE/modules/juce_graphics"; sourceTree = "<absolute>"; };
+		D374E30BC530071E36D2ABD7 /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = "~/JUCE/modules/juce_core"; sourceTree = "<absolute>"; };
+		D5A3B5B42B4B43A699D3A444 /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
+		DBF6A74C6EDD54DA1C555AED /* App */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexBoxGridTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD8D34C45957251B95AC5E0 /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF99AAF67BE2F96C0D14F989 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F908CF0864247638C48C25,
+				28692A0B70EDD675BF0AF2C6,
+				817080D6FEF6484C7A36C117,
+				4B2866CB67D5A1E0442A4928,
+				AFFDD23FE25DF0FCABAD2ACD,
+				1B0F84D71FDFB5AF91F5300E,
+				4C9FB07E288BF1E315862E3B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A13BB20CBFE7984D8E235C8 /* FlexBoxGridTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				6A9ECFEC77FDD332C5CD5E95,
+			);
+			name = FlexBoxGridTutorial;
+			sourceTree = "<group>";
+		};
+		52685F97083A5D88532E9553 /* JUCE Library Code */ = {
+			isa = PBXGroup;
+			children = (
+				99D1B8A363B52D3E4D5EA46B,
+				052D21157A89D44913B64D11,
+				C77EAA4B41ADBA6B235C8A92,
+				87EF4FC2AF4C47D48988DBB5,
+				A34809D7A31CC9DB81033AF5,
+				D5A3B5B42B4B43A699D3A444,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		6A9ECFEC77FDD332C5CD5E95 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C8F2FAF9885744AC7F2E39BC,
+				042A5DBD2F7DE8B23DEAA146,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		6E174D59EF7538C41732EC90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D1EE67CEE1A86CA1DC28428,
+				658D41426A6FBB4743C7F7A3,
+				AC1C34A103F5CABD80ACF50E,
+				5EFA37BB99C30A352FAA9F58,
+				7ABDB5612ED3C9BF39F28287,
+				EBD8D34C45957251B95AC5E0,
+				A0899B13B6CF2E07CE104393,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4BEB582ECEBBF9C1824ABD9 /* JUCE Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D374E30BC530071E36D2ABD7,
+				534EC7DF66E48D36B9AB0D34,
+				09B66DB4057B4484E2A21F4B,
+				CC0970C28D85E4C0A76CF85C,
+				404AAF7B6F929001C81B975A,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		E106A7E97648B55171E8B1F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C14042FE09F225393171B14,
+				08A3EC0DBD6AA4500518AEA5,
+				79D10A8B003BB12E6A6D2A46,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB489D14059996DA7D42326C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A13BB20CBFE7984D8E235C8,
+				D4BEB582ECEBBF9C1824ABD9,
+				52685F97083A5D88532E9553,
+				E106A7E97648B55171E8B1F5,
+				6E174D59EF7538C41732EC90,
+				F8945EF0D778C78DD9738419,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		F8945EF0D778C78DD9738419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF6A74C6EDD54DA1C555AED,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68556EA6B5531D17E55E42F1 /* FlexBoxGridTutorial - App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC18231D73D194FAF1791CC;
+			buildPhases = (
+				D274DD76DBBE2FBCD4464D0C,
+				961FDAE001DE8A2A7BF61E80,
+				DF99AAF67BE2F96C0D14F989,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlexBoxGridTutorial - App";
+			productName = FlexBoxGridTutorial;
+			productReference = DBF6A74C6EDD54DA1C555AED;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		124CE1F7BBC380318A5B28AD = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = "JUCE";
+				TargetAttributes = {
+					68556EA6B5531D17E55E42F1 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BDF480549ECB4B470D8A7E2D;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB489D14059996DA7D42326C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68556EA6B5531D17E55E42F1,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D274DD76DBBE2FBCD4464D0C = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3520AD4518AAE9D3C41DF8FE,
+				15A9AAABD2DCAD631AAEEB78,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961FDAE001DE8A2A7BF61E80 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2BE8F9903154FC30C3CA05,
+				8CF087E8F842ED715910DD3A,
+				64C6BAC0E9F3EB001DB0AF94,
+				6B967563329EDE619E1FFF45,
+				82664F7DAFDE1164E413F1E5,
+				6CE5ED73556A297A904E043A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C9B9251A5053281E60D9D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_CONTENT_SHARING=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=0",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x70005",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"JUCER_XCODE_IPHONE_5BC26AE3=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"$(HOME)/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JUCE.FlexBoxGridTutorial;
+				PRODUCT_NAME = "FlexBoxGridTutorial";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		E1424D1D0C1777B7F0610E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "FlexBoxGridTutorial";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		E7654382D881D820DCB25D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_CONTENT_SHARING=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=0",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x70005",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"JUCER_XCODE_IPHONE_5BC26AE3=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"$(HOME)/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LLVM_LTO = YES;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JUCE.FlexBoxGridTutorial;
+				PRODUCT_NAME = "FlexBoxGridTutorial";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		E82C47FC889BD8AC4A83C635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "FlexBoxGridTutorial";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC18231D73D194FAF1791CC = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9B9251A5053281E60D9D21,
+				E7654382D881D820DCB25D1E,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BDF480549ECB4B470D8A7E2D = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1424D1D0C1777B7F0610E4B,
+				E82C47FC889BD8AC4A83C635,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 124CE1F7BBC380318A5B28AD /* Project object */;
+}
